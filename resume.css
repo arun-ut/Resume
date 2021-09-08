@@ -81,6 +81,9 @@ table
 	font-size:30px;
 	border-width:2px;
 }
+.address_cell{
+	vertical-align:top;
+}
 .personal_info
 {
 	font-family: 'Hina Mincho', serif;
@@ -148,6 +151,9 @@ table
 	height:130px;
 	font-size:20px;
 }
+#bsnl_no{
+	display:inline-block;
+}
 a{
 	text-decoration:none;
 }
@@ -172,6 +178,9 @@ a{
 		width:100%;
 		font-size:25px;
 	}
+	.address_cell{
+		vertical-align:top;
+	}
 	.info{
 		width:100%;
 		height:350;
@@ -183,10 +192,14 @@ a{
 		margin:0px;
 	}
 	.area_of_intrest{
-			font-size:23px;
+		font-size:23px;
 	}
+	.Certification{
+		font-size:23px;
+	}
+	
 	.font-sizing{
-			font-size:23px;
+		font-size:23px;
 	}
 	.intrest_certification_container{
 		width:100%;
