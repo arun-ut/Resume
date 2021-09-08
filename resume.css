@@ -1,0 +1,227 @@
+.socialmedialinks{
+	text-align:right;
+}
+.info{
+	height:400px;
+	width:100%;
+	background-color:#98FB98;
+}
+body{
+	font-family: 'Hina Mincho', serif;
+	
+  background-image: url("bg.jpg");
+
+  height: 100%; 
+  background-position: center;
+
+  background-size: cover;
+}
+	
+.fa-fa-linkedin-square{
+	margin:10px;
+	display:inline;	
+}
+.fa-facebook {
+	margin:10px;
+	display:inline;
+	color:#3B5998;
+
+}
+.fa-instagram{
+	margin:10px;
+	display:inline;
+	color:#FF1493;
+
+}
+.fa-whatsapp{
+	margin:10px;
+	color:green;
+	
+}
+.intro{
+	margin-top:100px;
+	height:250px;
+	width:65%;
+	font-size:25px;
+	justify-content:space-around;
+}
+.aboutme{
+	font-size:20px;
+	width:400px;
+	font-family: 'Hina Mincho', serif;
+	font-size:30px;
+}
+.photo{
+	border-radius:50px;
+	width:400px;
+	height:500px;
+}
+
+thead{
+	display:inline;
+	font-weight:800;
+}
+tbody
+{
+	display:inline;
+}
+	
+.personal_info_heading{
+	padding:0px;
+	margin:0px;
+}
+
+table
+{
+
+	font-weight:400;
+	font-family: 'Hina Mincho', serif;
+	width:600px;
+	height:100px;
+	font-size:30px;
+	border-width:2px;
+}
+.personal_info
+{
+	font-family: 'Hina Mincho', serif;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+.font-sizing{
+	font-size:30px;
+	margin:0px;
+}
+.skill_intrest_container{
+
+	height:600px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+
+.skills{
+	width:40%;
+	height:600px;
+	background-color:#98FB98;
+
+}
+
+.bar{
+	width:400px;
+	height:15px;
+	background-color:red;
+}
+
+.htmlpercentage{
+	width:384px;
+	height:15px;
+	background-color:grey;
+}
+.css{
+	width:360px;
+	height:15px;
+	background-color:grey;
+}
+.python{
+	width:340px;
+	height:15px;
+	background-color:grey;
+}
+.c{
+	width:320px;
+	height:15px;
+	background-color:grey;
+}
+
+.contact_address{
+
+	height:200px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	background-color:#FFFFCC;
+}
+.contact{
+	margin-top:10px;
+	width:30%;
+	height:130px;
+	font-size:20px;
+}
+a{
+	text-decoration:none;
+}
+
+@media screen and (min-width:320px) and (max-width:479px)
+{
+	.intro{
+		width:100%;
+		margin:0px;
+	}
+	.aboutme{
+		width:100%;
+		font-size:23px;
+	}
+	#mail{
+		font-size:22px;
+	}
+	.aboutme_pht{
+		width:100%;
+	}
+	table{
+		width:100%;
+		font-size:25px;
+	}
+	.info{
+		width:100%;
+		height:350;
+	}
+	.personal_info_heading{
+		margin-top:10px;
+	}
+	.edu{
+		margin:0px;
+	}
+	.area_of_intrest{
+			font-size:23px;
+	}
+	.font-sizing{
+			font-size:23px;
+	}
+	.intrest_certification_container{
+		width:100%;
+	}
+	.skills{
+		width:100%;
+	}
+	.bar{
+		width:200px;
+	}
+	.htmlpercentage{
+		width:192px;
+	}
+	.css{
+		width:180px;
+	}
+	.python{
+		width:170px;
+	}
+	.c{
+		width:160px;
+	}
+	.contact_address{
+		height:500px;
+	}
+	.contact{
+		width:100%;
+
+	}
+	.skill_intrest_container{
+		height:950px;
+	}
+		
+
+
+
+}
+	.
